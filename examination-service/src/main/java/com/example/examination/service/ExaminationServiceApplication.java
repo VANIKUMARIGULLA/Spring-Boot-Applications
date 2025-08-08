@@ -12,4 +12,6 @@ public class ExaminationServiceApplication {
 		SpringApplication.run(ExaminationServiceApplication.class, args);
 	}
 
+	
+	//commit test
 }
