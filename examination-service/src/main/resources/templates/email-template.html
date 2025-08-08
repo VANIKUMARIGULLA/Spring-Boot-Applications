@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title>Email</title></head>
+<body>
+    <p>Dear Student,</p>
+    <p>You are scheduled for the <strong th:text="${subject}">[Subject]</strong> exam on
+    <strong th:text="${examDate}">[Date]</strong>.</p>
+    <p>Duration: <span th:text="${duration}">[Duration]</span> minutes</p>
+    <p>All the best!</p>
+</body>
+</html>
