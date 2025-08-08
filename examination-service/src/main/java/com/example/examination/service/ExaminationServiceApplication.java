@@ -13,5 +13,4 @@ public class ExaminationServiceApplication {
 	}
 
 	
-	//commit test
 }
